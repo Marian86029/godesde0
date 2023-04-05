@@ -35,7 +35,7 @@ func main() {
 	}
 	*/
 
-	numero, texto := ejercicios.PublicFunction(500)
+	numero, texto := ejercicios.PublicFunction("500")
 	fmt.Println(numero)
 	fmt.Println(texto)
 
