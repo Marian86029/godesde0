@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/Marian86029/godesde0/ejercicios"
+	"github.com/Marian86029/godesde0/files"
 )
 
 func main() {
@@ -33,10 +31,23 @@ func main() {
 		fmt.Printf("%s\n", os)
 
 	}
-	*/
+
+
 
 	numero, texto := ejercicios.PublicFunction("500")
-	fmt.Println(numero)
+	fmt.Println(numero)                                     // Primer Intento de Proyecto
 	fmt.Println(texto)
+
+	teclado.IngresoNumeros()     // Scanear info en el teclado
+
+	iteraciones.Iterar()*/ // ciclo for go
+
+	// fmt.Println(ejercicios.PublicParameter())
+
+	// files.GrabaTabla()
+
+	//files.SumaTabla()
+
+	files.LeoArchivo()
 
 }
