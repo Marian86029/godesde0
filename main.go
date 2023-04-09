@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Marian86029/godesde0/files"
+	"github.com/Marian86029/godesde0/funciones"
 )
 
 func main() {
@@ -48,6 +48,8 @@ func main() {
 
 	//files.SumaTabla()
 
-	files.LeoArchivo()
+	//files.LeoArchivo()
+
+	funciones.Llamarclosures()
 
 }
