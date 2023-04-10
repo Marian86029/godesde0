@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/Marian86029/godesde0/funciones"
-)
+import "github.com/Marian86029/godesde0/arreglos_slices"
 
 func main() {
 
@@ -50,6 +48,12 @@ func main() {
 
 	//files.LeoArchivo()
 
-	funciones.Llamarclosures()
+	//funciones.Llamarclosures()
+
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.MuestroArreglos()
+
+	arreglos_slices.Capacidad()
 
 }
