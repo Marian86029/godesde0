@@ -1,6 +1,8 @@
 package main
 
-import "github.com/Marian86029/godesde0/arreglos_slices"
+import (
+	"github.com/Marian86029/godesde0/mapas"
+)
 
 func main() {
 
@@ -54,6 +56,8 @@ func main() {
 
 	//arreglos_slices.MuestroArreglos()
 
-	arreglos_slices.Capacidad()
+	//arreglos_slices.Capacidad()
+
+	mapas.MostrarMapas()
 
 }
