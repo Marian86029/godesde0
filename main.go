@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/Marian86029/godesde0/mapas"
+	"fmt"
+
+	g "github.com/Marian86029/godesde0/goroutines"
 )
 
 func main() {
@@ -58,6 +60,23 @@ func main() {
 
 	//arreglos_slices.Capacidad()
 
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+	// user.AltaUsuario()
+
+	//Pedro := new(modelos.Hombre)
+	//e.HumanosRespirando(Pedro)
+	// esto es el mismo ejercicio
+	//Maria := new(modelos.Mujer)
+	//e.HumanosRespirando(Maria)
+
+	//d.EjemploPanic()
+
+	canal1 := make(chan bool)
+
+	go g.MiNombreLentooo("Mariano Romera", canal1)
+	defer func() {
+		<-canal1
+	}()
+	fmt.Println("Estoy Aqui")
 
 }
